@@ -1,0 +1,27 @@
+{
+  "name": "tubbyai-browser",
+  "version": "1.0.0",
+  "description": "TubbyAI Browser with Tooltip Companion",
+  "main": "node-modules/crawler/index.js",
+  "scripts": {
+    "install-playwright": "npm install playwright",
+    "test-crawler": "node node-modules/crawler/test.js",
+    "build": "npm run install-playwright"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "browser",
+    "chromium",
+    "tooltip",
+    "crawler",
+    "playwright"
+  ],
+  "author": "TubbyAI Team",
+  "license": "MIT"
+}
